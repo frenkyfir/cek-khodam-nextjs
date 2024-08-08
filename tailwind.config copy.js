@@ -8,10 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-background': "url('/path/to/your/image.jpg')", // Adjust the path as needed
-      },
-      blur: {
-        '4xl': '40px',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
